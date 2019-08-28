@@ -6,4 +6,8 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <div [routerLink]="['/tabs/tab2/my']" routerLinkActive="router-link-active1" style="width: 50%;text-align: center;display: inline-block">my</div>
+  <div [routerLink]="['/tabs/tab2/you']" routerLinkActive="router-link-active2" style="width: 50%;text-align: center;display: inline-block">you</div>
+  <router-outlet></router-outlet>
+</ion-content>
